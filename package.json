@@ -1,0 +1,19 @@
+{
+  "name": "vue-versioning",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.2.0",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "husky": "^8.0.2",
+    "vite": "^3.1.8"
+  }
+}
